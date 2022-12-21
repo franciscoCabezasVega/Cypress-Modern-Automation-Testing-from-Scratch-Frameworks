@@ -6,7 +6,7 @@ const randomProduct = faker.datatype.number({ min: 0, max: 3 })
 
 describe('My First Test Suite', () => {
     it('My FirstTest case', () => {
-        cy.visit('/')
+        cy.visit('https://rahulshettyacademy.com/seleniumPractise/#/')
 
         cy.get('form input[type=search]')
             .type('ca')
@@ -44,12 +44,12 @@ describe('My First Test Suite', () => {
                     cy.wrap($el).find('button').click()
                 }
             })
-        
+
         // assert if logo text is correctly displayed
-        cy.get('.brand').should('have.text','GREENKART')
+        cy.get('.brand').should('have.text', 'GREENKART')
 
         // this is to print in logs
-        cy.get('.brand').then(function(logoElement){
+        cy.get('.brand').then(function (logoElement) {
             cy.log(logoElement.text())
         })
     })
