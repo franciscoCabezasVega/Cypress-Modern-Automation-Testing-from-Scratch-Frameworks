@@ -8,9 +8,9 @@ let randomRadioButton = randomGenerator(1, 3)
 
 describe('My Third Test Suite', () => {
     it('My ThirdTest case', () => {
+        cy.visit('https://rahulshettyacademy.com/AutomationPractice')
 
         // Check boxes
-        cy.visit('https://rahulshettyacademy.com/AutomationPractice/#/')
         cy.get(`#checkBoxOption${randomCheckbox}`)
             .check()
             .should('be.checked')
