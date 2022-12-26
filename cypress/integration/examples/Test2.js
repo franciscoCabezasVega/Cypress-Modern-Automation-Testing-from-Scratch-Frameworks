@@ -1,9 +1,5 @@
 /// <reference types="Cypress" />
 
-import { faker } from '@faker-js/faker';
-
-const randomProduct = faker.datatype.number({ min: 0, max: 3 })
-
 describe('My Second Test Suite', () => {
     it('My SecondTest case', () => {
         cy.visit('https://rahulshettyacademy.com/seleniumPractise')

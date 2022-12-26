@@ -24,7 +24,9 @@ describe('My Third Test Suite', () => {
         }
 
         // Static Dropdown
-        cy.get('select').select(`option${randomDropdown}`).should('have.value', `option${randomDropdown}`)
+        cy.get('select')
+            .select(`option${randomDropdown}`)
+            .should('have.value', `option${randomDropdown}`)
 
         // Dynamic dropdown
         cy.get('#autocomplete').type('ind')
