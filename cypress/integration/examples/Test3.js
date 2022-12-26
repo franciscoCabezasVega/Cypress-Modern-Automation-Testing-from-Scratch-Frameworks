@@ -46,6 +46,5 @@ describe('My Third Test Suite', () => {
 
         // Radio Button
         cy.get(`label input[value=radio${randomRadioButton}]`).check().should('be.checked')
-
     })
 })

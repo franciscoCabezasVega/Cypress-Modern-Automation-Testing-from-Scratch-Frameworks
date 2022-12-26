@@ -27,6 +27,5 @@ describe('My Four Test Suite', () => {
         // go return on the page
         cy.go('back')
         cy.url().should('include', 'AutomationPractice')
-
     })
 })
