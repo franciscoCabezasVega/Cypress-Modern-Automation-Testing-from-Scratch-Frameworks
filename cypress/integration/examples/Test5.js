@@ -12,7 +12,7 @@ describe('My Five Test Suite', () => {
                     cy.get('tr td:nth-child(2)')
                         .eq(index)
                         .next()
-                        .then(function (price) {
+                        .then((price) => {
                             const priceText = price.text()
                             expect(priceText).to.equal('25')
                         })

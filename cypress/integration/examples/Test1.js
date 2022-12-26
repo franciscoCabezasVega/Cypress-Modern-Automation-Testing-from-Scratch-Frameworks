@@ -49,7 +49,7 @@ describe('My First Test Suite', () => {
         cy.get('.brand').should('have.text', 'GREENKART')
 
         // this is to print in logs
-        cy.get('.brand').then(function (logoElement) {
+        cy.get('.brand').then((logoElement) => {
             cy.log(logoElement.text())
         })
     })

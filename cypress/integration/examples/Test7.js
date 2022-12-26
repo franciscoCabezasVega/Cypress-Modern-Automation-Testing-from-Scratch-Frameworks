@@ -5,7 +5,7 @@ describe('My Seven Test Suite', () => {
         cy.visit('https://rahulshettyacademy.com/AutomationPractice')
 
         // prop url visit
-        cy.get('#opentab').then(function ($el) {
+        cy.get('#opentab').then(($el) => {
             const url = $el.prop('href')
             cy.log(url)
             cy.visit(url)
