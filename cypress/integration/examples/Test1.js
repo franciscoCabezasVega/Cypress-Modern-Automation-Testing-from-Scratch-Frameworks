@@ -6,7 +6,7 @@ const randomProduct = faker.datatype.number({ min: 0, max: 3 })
 
 describe('My First Test Suite', () => {
     it('My FirstTest case', () => {
-        cy.visit('https://rahulshettyacademy.com/seleniumPractise')
+        cy.visit('/seleniumPractise')
 
         cy.get('form input[type=search]')
             .type('ca')

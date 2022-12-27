@@ -2,7 +2,7 @@
 
 describe('My Four Test Suite', () => {
     it('My FourTest case', () => {
-        cy.visit('https://rahulshettyacademy.com/AutomationPractice')
+        cy.visit('/AutomationPractice')
         
         // Window:alert
         cy.get('#alertbtn').click()

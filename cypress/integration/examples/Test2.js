@@ -2,7 +2,7 @@
 
 describe('My Second Test Suite', () => {
     it('My SecondTest case', () => {
-        cy.visit('https://rahulshettyacademy.com/seleniumPractise')
+        cy.visit('/seleniumPractise')
 
         cy.get('form input[type=search]')
             .type('ca')

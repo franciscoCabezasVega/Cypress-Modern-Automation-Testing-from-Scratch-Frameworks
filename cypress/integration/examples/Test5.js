@@ -2,7 +2,7 @@
 
 describe('My Five Test Suite', () => {
     it('My FiveTest case', () => {
-        cy.visit('https://rahulshettyacademy.com/AutomationPractice')
+        cy.visit('/AutomationPractice')
 
         // Web tables element
         cy.get('tr td:nth-child(2)')

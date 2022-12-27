@@ -11,5 +11,6 @@ module.exports = defineConfig({
     video: false,
     viewportHeight: 1080,
     viewportWidth: 1920,
+    baseUrl: 'https://rahulshettyacademy.com'
   },
 });

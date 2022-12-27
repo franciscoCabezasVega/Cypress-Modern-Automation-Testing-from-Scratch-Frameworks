@@ -13,7 +13,7 @@ describe('My Second framework Test Suite', () => {
     })
 
     it('My SecondTestFramework case', function () {
-        cy.visit('https://rahulshettyacademy.com/angularpractice/')
+        cy.visit('/angularpractice/')
 
         // Form in angular
         cy.get('input[name=name]').eq(0).type(this.data.name).should('have.value', this.data.name)

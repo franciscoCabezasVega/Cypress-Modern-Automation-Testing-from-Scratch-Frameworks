@@ -15,7 +15,7 @@ describe('My Four framework Test Suite', () => {
     })
 
     it('My FourTestFramework case', function () {
-        cy.visit('https://rahulshettyacademy.com/angularpractice')
+        cy.visit('/angularpractice')
 
         // Custom command cypress
         cy.contains('Shop').click()

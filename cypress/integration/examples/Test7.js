@@ -2,7 +2,7 @@
 
 describe('My Seven Test Suite', () => {
     it('My SevenTest case', () => {
-        cy.visit('https://rahulshettyacademy.com/AutomationPractice')
+        cy.visit('/AutomationPractice')
 
         // prop url visit
         cy.get('#opentab').then(($el) => {

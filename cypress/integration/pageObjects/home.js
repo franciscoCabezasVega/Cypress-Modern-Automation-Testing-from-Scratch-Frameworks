@@ -28,7 +28,7 @@ describe('My pom framework Test Suite', () => {
         const homepage = new HomePage()
         const productpage = new ProductPage()
 
-        cy.visit('https://rahulshettyacademy.com/angularpractice/')
+        cy.visit('/angularpractice/')
 
         homepage.getEditBox().type(fullName).should('have.value', fullName)
         homepage.getEditBox().should('have.attr', 'minlength', '2')

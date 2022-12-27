@@ -5,7 +5,7 @@ import 'cypress-iframe';
 
 describe('My Seven Test Suite', () => {
     it('My SevenTest case', () => {
-        cy.visit('https://rahulshettyacademy.com/AutomationPractice')
+        cy.visit('/AutomationPractice')
 
         // iframe in cypress
         cy.frameLoaded('#courses-iframe')

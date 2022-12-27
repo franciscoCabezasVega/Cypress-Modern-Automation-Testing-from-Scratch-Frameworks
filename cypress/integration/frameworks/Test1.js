@@ -18,7 +18,7 @@ let randomRadioButton = randomGenerator(1, 2)
 
 describe('My First framework Test Suite', () => {
     it('My FirstTestFramework case', () => {
-        cy.visit('https://rahulshettyacademy.com/angularpractice/')
+        cy.visit('/angularpractice/')
 
         // Form in angular
         cy.get('input[name=name]').eq(0).type(fullName).should('have.value', fullName)
