@@ -3,5 +3,6 @@
   "email": "hello@cypress.io",
   "password": "P@ssw0rd",
   "gender": "Male",
-  "birthDate": "2022-01-01"
+  "birthDate": "2022-01-01",
+  "productName": ["Blackberry", "Nokia Edge"]
 }

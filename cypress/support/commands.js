@@ -28,3 +28,14 @@ Cypress.Commands.overwrite('type', (originalFn, subject, text, options = {}) => 
     options.delay = 100
     return originalFn(subject, text, options)
 })
+
+Cypress.Commands.add('addProduct', (product) => {
+    cy.get('app-card-list')
+        .find('app-card')
+        .each(($el, index, $list) => {
+            const productName = $el.find('h4.card-title').text()
+            if (productName.includes(product)) {
+                cy.wrap($el).find('button').click()
+            }
+        })
+})

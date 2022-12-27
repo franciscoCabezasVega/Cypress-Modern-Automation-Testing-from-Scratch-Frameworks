@@ -4,7 +4,7 @@ import { randomGenerator } from '../../support/misic';
 
 let randomRadioButton = randomGenerator(1, 2)
 
-describe('My Second framework Test Suite', () => {
+describe('My Thrid framework Test Suite', () => {
 
     before(function () {
         cy.fixture('example').then(function (data) {
@@ -12,7 +12,7 @@ describe('My Second framework Test Suite', () => {
         })
     })
 
-    it('My SecondTestFramework case', function () {
+    it('My ThridTestFramework case', function () {
         cy.visit('https://rahulshettyacademy.com/angularpractice/')
 
         // Form in angular
