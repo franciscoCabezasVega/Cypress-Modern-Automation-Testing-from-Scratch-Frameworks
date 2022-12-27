@@ -12,7 +12,7 @@ describe('My Four framework Test Suite', () => {
         cy.visit('https://rahulshettyacademy.com/angularpractice')
 
         // Custom command cypress
-        cy.contains('Shop').click() 
+        cy.contains('Shop').click()
            
         for (var i = 0; i < this.data.productName.length; i++){
             cy.addProduct(this.data.productName[i])

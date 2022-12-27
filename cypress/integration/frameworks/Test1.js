@@ -22,6 +22,7 @@ describe('My First framework Test Suite', () => {
 
         // Form in angular
         cy.get('input[name=name]').eq(0).type(fullName).should('have.value', fullName)
+        cy.get('input[name=name]').should('have.attr', 'minlength', '2')
         cy.get('input[name=email]').type(email).should('have.value', email)
         cy.get('input[type=password]').type(faker.internet.password())
         cy.get('#exampleCheck1')
