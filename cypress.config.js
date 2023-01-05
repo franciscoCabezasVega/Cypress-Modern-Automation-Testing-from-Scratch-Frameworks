@@ -24,7 +24,6 @@ module.exports = defineConfig({
     baseUrl: 'https://rahulshettyacademy.com',
     retries: {
       runMode: 2,
-      openMode: 2,
     },
   },
 });
