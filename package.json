@@ -13,6 +13,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^15.0.0",
+    "@cypress/browserify-preprocessor": "^3.0.2",
     "@faker-js/faker": "^7.6.0",
     "cypress": "^12.1.0",
     "cypress-iframe": "^1.0.1"
