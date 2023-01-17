@@ -9,6 +9,12 @@
     "chromeTest": "npm run test -- --browser chrome",
     "recordDashBoardTest": "npm run test -- --record --key d3c6b308-2a50-45b7-9410-b8ef8eb380bb"
   },
+  "cypress-cucumber-preprocessor": {
+    "json": {
+      "enabled": true,
+      "output": "cypress/cucumberReports/cucumber-report.json"
+    }
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -17,6 +23,8 @@
     "@cypress/browserify-preprocessor": "^3.0.2",
     "@faker-js/faker": "^7.6.0",
     "cypress": "^12.1.0",
-    "cypress-iframe": "^1.0.1"
+    "cypress-iframe": "^1.0.1",
+    "multiple-cucumber-html-reporter": "^3.1.0",
+    "mocha": "^10.1.0"
   }
 }

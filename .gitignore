@@ -52,6 +52,8 @@ typings
 package-lock.json
 cypress/screenshots/
 cypress/videos/
+cypress/cucumberReports/
+cucumber-messages.ndjson
 
 # Logs
 logs
