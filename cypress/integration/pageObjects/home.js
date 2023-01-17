@@ -43,7 +43,7 @@ describe('My pom framework Test Suite', () => {
         homepage.getRandomEntrepreneaur().check().should('be.checked')
         homepage.getEntrepreneaur().should('be.disabled')
         homepage.getDate().type(birthDate).should('have.value', birthDate)
-        homepage.getEditBox().should('have.value', fullName)
+        homepage.getTwoWayDataBinding().should('have.value', fullName)
         homepage.getSubmitButton().click()
         homepage.getAlertMessage().should('be.visible')
         homepage.getAlertMessage().should('contain', 'Success! The Form has been submitted successfully!.')  
