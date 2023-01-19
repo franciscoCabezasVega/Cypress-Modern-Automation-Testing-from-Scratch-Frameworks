@@ -16,7 +16,7 @@ module.exports = defineConfig({
   projectId: 'giqkuu',
   e2e: {
     setupNodeEvents,
-    specPattern: ['cypress/integration/*/*js', 'cypress/integration/BDD/*.feature'],
+    specPattern: ['cypress/integration/*/*js', 'cypress/integration/BDD/*.feature', 'cypress/integration/intercept/*/*js'],
     excludeSpecPattern: 'cypress/integration/pageObjects/*Page.js',
     video: false,
     viewportHeight: 1080,
