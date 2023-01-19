@@ -54,6 +54,7 @@ cypress/screenshots/
 cypress/videos/
 cypress/cucumberReports/
 cucumber-messages.ndjson
+cypress/downloads/
 
 # Logs
 logs
