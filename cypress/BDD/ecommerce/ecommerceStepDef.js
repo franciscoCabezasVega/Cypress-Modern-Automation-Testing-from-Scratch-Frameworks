@@ -2,7 +2,7 @@
 
 import { Given, When, Then } from "@badeball/cypress-cucumber-preprocessor";
 import { faker } from '@faker-js/faker';
-import HomePage from "../../pageObjects/HomePage";
+import HomePage from "../pageObjects/HomePage";
 
 const country = faker.address.country()
 const homepage = new HomePage()
